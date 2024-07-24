@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/passwordIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter PIN"
+        android:textSize="24sp"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:id="@+id/passwordContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showKeypad">
+
+        <!-- 비밀번호 입력 표시용 동그라미 6개 -->
+        <View
+            android:id="@+id/circle1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/circle2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/circle3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/circle4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/circle5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/circle6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>

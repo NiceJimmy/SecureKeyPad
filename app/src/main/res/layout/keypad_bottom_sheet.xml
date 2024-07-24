@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="3"
+        android:padding="16dp">
+
+        <!-- 키패드 버튼들 -->
+        <!-- 동적으로 생성할 예정 -->
+    </GridLayout>
+</LinearLayout>
